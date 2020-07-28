@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_advertise"
+        icon="@drawable/advertise_normal"
+        barColorWhenSelected="#ffffff"
+        title="招聘" />
+    <tab
+        id="@+id/tab_lost_found"
+        icon="@drawable/lost_found_normal"
+        barColorWhenSelected="#ffffff"
+        title="失物招领" />
+    <tab
+        id="@+id/tab_postgraduate"
+        icon="@drawable/postgraduate_exam_normal"
+        barColorWhenSelected="#ffffff"
+        title="考研" />
+</tabs>

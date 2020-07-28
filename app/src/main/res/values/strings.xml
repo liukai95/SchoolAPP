@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">校园通</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="idtxthint">账 号</string>
+    <string name="pwdtxthint">密 码</string>
+    <string name="loginbtntext">登录</string>
+    <string name="fastregister">快速注册</string>
+    <string name="loading">正在登录</string>
+    <string name="rempwd">"记住密码"</string>
+    <string name="register">确认</string>
+    <string name="surepwa">密码确认</string>
+    <string name="title_activity_login">登录</string>
+    <string name="title_activity_register">注册</string>
+    <string name="title_activity_perfect_info">完善信息</string>
+    <string name="title_activity_post_advertise">招聘信息</string>
+
+</resources>

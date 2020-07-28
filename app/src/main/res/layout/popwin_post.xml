@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popwin_post_back">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/post_advertise"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="招聘信息"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="1dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="2dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/post_lost_found"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="失物招领"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="2dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/post_postgraduate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="考研信息"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
